@@ -242,6 +242,6 @@ background-color: var(--color-accent);
 background-color: var(--color-accent);
 }
 
-.button-portfolio:activ{
+.button-portfolio:active{
 background-color: var(--color-accent);
 }
