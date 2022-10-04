@@ -21,7 +21,7 @@ ul{list-style: none;}
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ ul{list-style: none;}
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -43,7 +43,7 @@ ul{list-style: none;}
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     
 }
@@ -81,8 +81,9 @@ background-color: var(--color-accent);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 color: var(--coolor-background);
+cursor: pointer;
 }
 
 .visually-hidden{
@@ -102,7 +103,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -111,7 +112,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px; 
+    line-height: 1.7; 
     letter-spacing: 0.03em;    
     color: #757575;
 }
@@ -120,7 +121,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -132,7 +133,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     
 }
@@ -141,7 +142,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -149,7 +150,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: #757575;
 }
 
@@ -162,7 +163,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -177,7 +178,7 @@ color: var(--coolor-background);
     color: var(--coolor-background);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .link-address:hover{color:var(--color-accent)}
@@ -189,7 +190,7 @@ color: var(--coolor-background);
     font-style: normal; 
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -210,7 +211,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;  
+    line-height: 2;  
     letter-spacing: 0.06em;
     color: var(--text-color)
 }
@@ -219,7 +220,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;  
+    line-height: 1.8;  
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -230,7 +231,7 @@ color: var(--coolor-background);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     cursor: pointer;
 }
