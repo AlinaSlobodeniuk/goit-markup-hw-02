@@ -1,24 +1,25 @@
 :root{
     --color-brend:#2F303A;
     --color-accent:#2196F3;
-    --coolor-background:#FFFFFF;
+    --color-background:#FFFFFF;
     --text-color:#212121;
+    --text-color-optional:#757575;
 
 }
 
 body{
 background-color: #fff;
-font-family: 'Roboto', 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 color: var(--text-color);
 }
 
 ul{list-style: none;}
 
-.header{background-color: var(--coolor-background);}
+.header{background-color: var(--color-background);}
 
 .logo{
+    font-family: 'Raleway', sans-serif;
     color:#000000;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -31,7 +32,6 @@ ul{list-style: none;}
 
 .list{
     list-style: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -40,7 +40,6 @@ ul{list-style: none;}
 
 .list-contact{
     list-style: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -50,17 +49,23 @@ ul{list-style: none;}
 
 .link{
     text-decoration: none;
-    font-style: normal;
     color: var(--text-color)
 }
 .link:hover{color:var(--color-accent)}
 
 .link:focus{color:var(--color-accent)}
 
+.current-link{
+    text-decoration: none;
+    color: var(--color-accent)
+}
+.current-link:hover{color:var(--color-accent)}
+
+.current-link:focus{color:var(--color-accent)}
+
 .link-contact{
     text-decoration: none;
-    font-style: normal;
-    color: #757575;
+    color: var(--text-color-optional);
 }
 .link-contact:hover{color:var(--color-accent)}
 
@@ -70,19 +75,18 @@ ul{list-style: none;}
     background-color: var(--color-brend);
 }
 .hero-title{
-    font-style: normal;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    color: var(--coolor-background)
+    line-height: 1.4;
+    color: var(--color-background)
 }
 .hero-button{
 background-color: var(--color-accent);
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
-color: var(--coolor-background);
+color: var(--color-background);
 cursor: pointer;
 }
 
@@ -100,7 +104,6 @@ cursor: pointer;
 }
 
 .subtitle{
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -109,16 +112,14 @@ cursor: pointer;
 }
 
 .subtitle-paragraph{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7; 
     letter-spacing: 0.03em;    
-    color: #757575;
+    color: var(--text-color-optional);
 }
 
 .third-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -130,7 +131,6 @@ cursor: pointer;
 }
 
 .our-team-title{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -139,7 +139,6 @@ cursor: pointer;
 }
 
 .our-team-subtitle{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -147,11 +146,10 @@ cursor: pointer;
 }
 
 .our-team-paragraph{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    color: #757575;
+    color: var(--text-color-optional);
 }
 
 .footer{
@@ -159,8 +157,8 @@ cursor: pointer;
 }
 
 .logo-footer{
-    color:var(--coolor-background);
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color:var(--color-background);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -175,7 +173,7 @@ cursor: pointer;
 .link-address{
     text-decoration: none;
     font-style: normal;
-    color: var(--coolor-background);
+    color: var(--color-background);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -199,7 +197,7 @@ cursor: pointer;
 .link-contact-address:focus{color:var(--color-accent)}
 
 .portfolio{
-    background-color: #fff;
+    background-color: var(--color-background);
 }
 
 .link-portfolio{
@@ -208,7 +206,6 @@ cursor: pointer;
 }
 
 .subtitle-portfolio{
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;  
@@ -217,18 +214,16 @@ cursor: pointer;
 }
 
 .subtitle-portfolio-paragraph{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;  
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color-optional);
 }
 
 .button-portfolio{
     background: #F5F4FA;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -238,10 +233,12 @@ cursor: pointer;
 
 .button-portfolio:hover{
 background-color: var(--color-accent);
+color: var(--color-background)
 }
 
 .button-portfolio:focus{
 background-color: var(--color-accent);
+color: var(--color-background)
 }
 
 .button-portfolio:active{
